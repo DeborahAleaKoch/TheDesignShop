@@ -41,7 +41,7 @@ header {
   justify-content: space-between;
   padding: 4rem 0;
   margin-top: 1.3rem;
-  border: 2px solid deeppink;
+  /* border: 2px solid deeppink; */
 }
 
 nav {
@@ -56,10 +56,18 @@ img {
   margin-bottom: 2rem;
 }
 
+img:hover {
+  opacity: 50%;
+}
+
 div,
 p {
   font-size: 1.6rem;
   line-height: 2.5rem;
+}
+
+figure {
+  margin: 2rem 0;
 }
 
 .gray-Text {
@@ -69,4 +77,53 @@ p {
 .fig-caption {
   display: flex;
   justify-content: space-between;
+}
+
+.hero-sizing {
+  margin-bottom: 4rem;
+}
+
+/* - section II */
+
+.grid-parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+/* - footer */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+  margin-bottom: 4.4rem;
+}
+
+h4 {
+  margin-bottom: 4rem;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-a {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.last-footer {
+  position: relative;
+  left: 30rem;
+}
+
+.last-footer a {
+  font-size: 1rem;
+}
+
+.copyright {
+  font-size: 1rem;
+  color: var(--text-gray);
 }
