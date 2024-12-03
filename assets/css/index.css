@@ -29,6 +29,11 @@ body {
   margin: 0 4rem;
 }
 
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
 /* * Header */
 
 header {
@@ -42,4 +47,26 @@ header {
 nav {
   display: flex;
   gap: 6rem;
+}
+
+/* * Main */
+/* - section I */
+
+img {
+  margin-bottom: 2rem;
+}
+
+div,
+p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
+
+.gray-Text {
+  color: var(--text-gray);
+}
+
+.fig-caption {
+  display: flex;
+  justify-content: space-between;
 }
